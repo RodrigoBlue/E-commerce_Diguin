@@ -10,22 +10,22 @@
         }
 
   .navbar .nav-link {
-      color: #000; /* Define a cor do texto dos links da navbar */
-      font-weight: bold; /* Opcional: deixa o texto em negrito */
-      transition: color 0.3s; /* Animação suave para mudança de cor */
+      color: #000; 
+      font-weight: bold; 
+      transition: color 0.3s; 
   }
 
   .navbar .nav-link:hover {
-      color: #ff0000; /* Define a cor no estado de hover */
+      color: #ff0000; 
   }
 
   .navbar .navbar-brand {
-      color: #000; /* Cor do texto da marca (caso não seja uma imagem) */
-      font-weight: bold; /* Negrito na marca */
+      color: #000; 
+      font-weight: bold; 
   }
 
   .navbar .navbar-toggler-icon {
-      color: #000; /* Cor do ícone de colapso do menu */
+      color: #000; 
   }
     .navbar .navbar-brand img{
         max-width: 100px;
@@ -99,21 +99,21 @@
 
     /* Ajuste do tamanho do carrossel */ 
     .custom-carousel {
-      max-width: 1200px; /* Defina a largura desejada */
-      height: 800px; /* Defina a altura desejada */
-      margin: 0 auto; /* Centraliza o carrossel */
+      max-width: 1200px; 
+      height: 800px; 
+      margin: 0 auto; 
     }
 
     .custom-carousel img {
-      object-fit: cover; /* Garante que as imagens preencham o espaço proporcionalmente */
-      height: 100%; /* Define a altura da imagem de acordo com o carrossel */
-      width: 100%; /* Define a largura da imagem de acordo com o carrossel */
+      object-fit: cover; 
+      height: 100%; 
+      width: 100%; 
     }
 
     .btn-custom {
-      background-color: #33ff3d; /* Cor personalizada */
-      color: white; /* Cor do texto */
-      border: none; /* Remove borda, opcional */
+      background-color: #33ff3d; 
+      color: white; 
+      border: none; 
     }
 
     
