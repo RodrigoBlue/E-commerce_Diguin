@@ -71,3 +71,9 @@ color: #000; /* Cor do ícone de colapso do menu */
     height: 100%; /* Define a altura da imagem de acordo com o carrossel */
     width: 100%; /* Define a largura da imagem de acordo com o carrossel */
   }
+
+  .btn-custom {
+    background-color: #33ff3d; /* Cor personalizada */
+    color: white; /* Cor do texto */
+    border: none; /* Remove borda, opcional */
+  }
