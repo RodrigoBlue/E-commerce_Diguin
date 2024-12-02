@@ -1,73 +1,119 @@
-body {
-    background-color: black;
-    color: aliceblue;
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  
-  .navbar{
-      background-color: #ffffff    
+  body {
+      background-color: black;
+      color: aliceblue;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .navbar{
+        background-color: #ffffff    
 
-      }
+        }
 
-      .navbar .nav-link {
-color: #000; /* Define a cor do texto dos links da navbar */
-font-weight: bold; /* Opcional: deixa o texto em negrito */
-transition: color 0.3s; /* Animação suave para mudança de cor */
-}
-
-.navbar .nav-link:hover {
-color: #ff0000; /* Define a cor no estado de hover */
-}
-
-.navbar .navbar-brand {
-color: #000; /* Cor do texto da marca (caso não seja uma imagem) */
-font-weight: bold; /* Negrito na marca */
-}
-
-.navbar .navbar-toggler-icon {
-color: #000; /* Cor do ícone de colapso do menu */
-}
-  .navbar .navbar-brand img{
-      max-width: 100px;
+  .navbar .nav-link {
+      color: #000; /* Define a cor do texto dos links da navbar */
+      font-weight: bold; /* Opcional: deixa o texto em negrito */
+      transition: color 0.3s; /* Animação suave para mudança de cor */
   }
 
-  .search-and-icons{
-      display: flex;
-      align-items: center;
+  .navbar .nav-link:hover {
+      color: #ff0000; /* Define a cor no estado de hover */
   }
 
-  .search-and-icons .user-icons div{
-      padding-right: 1em;
-      }
-  
-      .card{
-    background-color: rgb(194, 14, 14);
-  }
-  
-  .card:hover {
-      background-color: #00ff37; 
-      transform: scale(1.1); 
+  .navbar .navbar-brand {
+      color: #000; /* Cor do texto da marca (caso não seja uma imagem) */
+      font-weight: bold; /* Negrito na marca */
   }
 
-
-  
-  img{
-      height: 600px;
-      width: 100px;
-
+  .navbar .navbar-toggler-icon {
+      color: #000; /* Cor do ícone de colapso do menu */
   }
- 
+    .navbar .navbar-brand img{
+        max-width: 100px;
+    }
+
+    .search-and-icons{
+        display: flex;
+        align-items: center;
+    }
+
+    .search-and-icons .user-icons div{
+        padding-right: 1em;
+        }
+    
+    .card{
+      background-color: rgb(194, 14, 14);
+    }
+    
+    .card:hover {
+        background-color: #00ff37; 
+        transform: scale(1.1); 
+    }
 
 
-  /* Ajuste do tamanho do carrossel */ 
-  .custom-carousel {
-    max-width: 1200px; /* Defina a largura desejada */
-    height: 800px; /* Defina a altura desejada */
-    margin: 0 auto; /* Centraliza o carrossel */
-  }
+    
+    img{
+        height: auto;
 
-  .custom-carousel img {
-    object-fit: cover; /* Garante que as imagens preencham o espaço proporcionalmente */
-    height: 100%; /* Define a altura da imagem de acordo com o carrossel */
-    width: 100%; /* Define a largura da imagem de acordo com o carrossel */
-  }
+    }
+    
+
+    .card2 {
+      background-color: rgb(194, 14, 14);
+      border: none;
+      border-radius: 8px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .card2 img {
+      object-fit: cover;
+      
+      
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+    }
+
+    
+    
+    .card2 .card-body {
+      padding: 2rem;
+    }
+    
+    
+    
+    .card2 .card-text {
+      font-size: 0.9rem;
+      color: #e6e6e6;
+    }
+    
+    
+    .card2:hover {
+      background-color: #00ff37;
+      transform: scale(1.05);
+    }
+    
+    .card2:hover .card-title,
+    .card2:hover .card-text {
+      color: #194d33;
+    } 
+
+
+    /* Ajuste do tamanho do carrossel */ 
+    .custom-carousel {
+      max-width: 1200px; /* Defina a largura desejada */
+      height: 800px; /* Defina a altura desejada */
+      margin: 0 auto; /* Centraliza o carrossel */
+    }
+
+    .custom-carousel img {
+      object-fit: cover; /* Garante que as imagens preencham o espaço proporcionalmente */
+      height: 100%; /* Define a altura da imagem de acordo com o carrossel */
+      width: 100%; /* Define a largura da imagem de acordo com o carrossel */
+    }
+
+    .btn-custom {
+      background-color: #33ff3d; /* Cor personalizada */
+      color: white; /* Cor do texto */
+      border: none; /* Remove borda, opcional */
+    }
+
+    
